@@ -1,0 +1,35 @@
+<div class="row justify-content-end pr-4 pt-3">
+    <button class="btn btn-danger btn-sm" (click)="logout()">Logout</button>
+</div>
+<div class="container" *ngIf="result">
+    <br>    
+    <div class="row">
+        {{result?.questionText}}
+    </div>
+    <br>
+    <div class="row" >
+        <div class="form-check col-md-6 pb-4" *ngFor="let item of result?.answerOptions">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="options" [value]="item" [(ngModel)] = "options">{{item}}
+            </label>
+          </div>
+          
+    </div>
+
+    <button  class="btn btn-success btn-sm" (click)="showresults = true">Submit</button>
+    <div class="row" *ngIf="showresults">
+        <div class="col-md-6 pb-2 pt-3"><b>Your Answer:</b> {{options}}</div>
+        <div class="col-md-12 pb-4 "><b>Correct Answer:</b> {{result?.correctAnswer}}</div>
+        <div class="col-md-12 pb-2"><b>Author:</b> {{result?.author}}</div>
+        <div class="col-md-12 pb-2"><b>Last Asked Date:</b> {{result?.stats.lastAskedDate}}</div>
+        <div class="col-md-12 pb-2"><b>Asked Count:</b> {{result?.stats.AskedCount}}</div>
+        <div class="col-md-12 pb-2"><b>Percentage of Users:</b> {{result?.stats.percentageOfUsers}}</div>
+    </div>
+    <!-- Your Answer: {{options}}
+    Correct Answer:{{result?.correctAnswer}}
+    Author: {{result?.author}}
+    Last Asked Date:{{result?.stats.lastAskedDate}}
+    Asked Count:{{result?.stats.askedCount}}
+    Percentage of Users:{{result?.stats.percentageOfUsers}} -->
+    
+</div>

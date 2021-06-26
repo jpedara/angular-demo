@@ -1,0 +1,104 @@
+[
+    {
+        "id":"0001",
+        "questionText":"Which of the following is correct about TypeScript?",
+        "answerOptions":[
+            "Angular is based on Typescript.",
+            "TypeScript is maintained by Microsoft.",
+            "This is a superset of JavaScript.",
+            "All of the above."
+        ],
+        "correctAnswer":"All of the above",
+        "author":"prakash",
+        "stats":{
+            "lastAskedDate":"25/06/2021",
+            "AskedCount":3,
+            "percentageOfUsers":50
+        }
+    },
+    {
+        "id":"0002",
+        "questionText":"What is .subscribe?",
+        "answerOptions":[
+            "Streams data in asynchronously",
+            "Streams data in synchronously",
+            "Both",
+            "None of above"
+        ],
+        "correctAnswer":"Both",
+        "author":"prakash",
+        "stats":{
+            "lastAskedDate":"25/06/2021",
+            "AskedCount":2,
+            "percentageOfUsers":100
+        }
+    },
+    {
+        "id":"0003",
+        "questionText":"What does AOT stand for?",
+        "answerOptions":[
+            "Ahead-Of-Time Compilation",
+            "Angular Object Templates",
+            "Both",
+            "None of above"
+        ],
+        "correctAnswer":"Ahead-Of-Time Compilation",
+        "author":"prakash",
+        "stats":{
+            "lastAskedDate":"25/06/2021",
+            "AskedCount":2,
+            "percentageOfUsers":50
+        }
+    },
+    {
+        "id":"0004",
+        "questionText":"Which of the following is not a hook application life cycle?",
+        "answerOptions":[
+            "ngOnChanges",
+            "ngViewStart",
+            "ngOninit",
+            "None"
+        ],
+        "correctAnswer":"ngViewStart",
+        "author":"prakash",
+        "stats":{
+            "lastAskedDate":"25/06/2021",
+            "AskedCount":3,
+            "percentageOfUsers":50
+        }
+    },
+    {
+        "id":"0005",
+        "questionText":"Router is part of which of the following module?",
+        "answerOptions":[
+            "@angular/core",
+            "@angular/router",
+            "Both",
+            "None of above"
+        ],
+        "correctAnswer":"@angular/router",
+        "author":"prakash",
+        "stats":{
+            "lastAskedDate":"25/06/2021",
+            "AskedCount":3,
+            "percentageOfUsers":50
+        }
+    },
+    {
+        "id":"0006",
+        "questionText":"RxJS can be used for?",
+        "answerOptions":[
+            "Browser Side",
+            "Server Side",
+            "Both",
+            "None of above"
+        ],
+        "correctAnswer":"Both",
+        "author":"prakash",
+        "stats":{
+            "lastAskedDate":"25/06/2021",
+            "AskedCount":3,
+            "percentageOfUsers":50
+        }
+    }
+]

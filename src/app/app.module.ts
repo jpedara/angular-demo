@@ -16,22 +16,6 @@ const routes=[
   {path:'login',component:LoginComponent},
   {path:'search',component:SearchComponent,canActivate:[AuthGuardService]},
   {path:'question',component:QuestionComponent,canActivate:[AuthGuardService]},
-  // {path:'home',component:HomeComponent},
-  // {path:'authorization',component:AuthorizationComponent},
-  // {path:'multipart',component:MultipartDemoComponent},
-  // {path:"dashboard",component:DashboardComponent,canActivate:[AuthGuard],children:[
-  //   {path:'',component:ProductsComponent},
-  //   // {path:'',redirectTo:'/dashboard/template/fileops',pathMatch: 'full'},
-  //   {path:'searchbyfolder',component:SearchbyfolderComponent},
-  //   {path:'searchbymetadata',component:MetadataSearchComponent},
-  //   {path:'imagegallery',component:ImagegalleryComponent},
-  //   {path:'imagegallery',component:ImagegalleryComponent},
-  //   {path:'sample',component:SampleComponent},
-  //   {path:'filesview',component:FilesViewComponent},
-  //   {path:'fileupload',component:FileUploadComponent},
-  //   {path:'fileops',component:FileoperationsComponent},
-  //   {path:':product/:prefix',component:ProductComponent}
-  // ]}
 ]
 @NgModule({
   declarations: [
